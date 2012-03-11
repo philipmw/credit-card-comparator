@@ -1,0 +1,150 @@
+body {
+	background-color: #f0e0ff;
+}
+
+a, a:visited {
+	color: #000080;
+}
+
+a:hover {
+	color: #0000ff;
+}
+
+div#cardimg {
+	float: left;
+	margin-right: 1em;
+}
+
+div#cardimg p {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#footer {
+	font-size: smaller;
+	clear: both;
+	margin-top: 2em;
+	padding-top: 1em;
+}
+
+div#questionnaire {
+	float: right;
+	clear: right;
+	margin-left: 1em;
+	padding: 1em;
+	border: 3px silver outset;
+	width: 60%;
+}
+
+div#questionnaire td.rewards ul {
+	display: inline;
+	list-style-type: none;
+}
+
+p.last-submitted {
+	font-style: italic;
+}
+
+td.a {
+	background-color: #e0d0f0;
+	padding-left: 1em;
+	width: 10em;
+	padding-right: 1em;
+}
+
+td.rewards {
+	width: 11em;
+}
+
+td.buttons {
+	padding-top: 1em;
+	text-align: right;
+}
+
+input.reset {
+	margin-right: 2em;
+}
+
+p.error {
+	font-size: larger;
+	color: #c00000;
+}
+
+table#stored-questionnaire {
+	border: 1px silver outset;
+}
+table#stored-questionnaire td {
+	border: 1px silver solid;
+	text-align: right;
+}
+table#stored-questionnaire td.cat {
+	width: 17em;
+}
+table#stored-questionnaire td.cat-total {
+	width: 17em;
+	font-weight: bold;
+}
+table#stored-questionnaire td.val {
+	width: 9em;
+}
+table#stored-questionnaire td.val:before {
+	content: "$";
+}
+table#stored-questionnaire td.val-total {
+	width: 9em;
+	font-weight: bold;
+}
+table#stored-questionnaire td.val-total:before {
+	content: "$";
+}
+
+table#rewards {
+	margin-left: 2em;
+}
+
+table#rewards th {
+	border: 1px silver outset;
+}
+
+table#rewards td.cardname {
+	padding-right: 1em;
+}
+
+table#rewards td.amount:before {
+	content: "$";
+}
+
+table#rewards td.amount {
+	border: 1px silver inset;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: right;
+}
+
+table#rewards td.cashback:after {
+	content: "%";
+}
+
+table#rewards td.colorid {
+	margin-left: 1em;
+	width: 20px;
+}
+
+table#rewards tr.best {
+	font-weight: bold;
+}
+
+table#details {
+	border: 2px silver outset;
+}
+
+table#details td {
+	border: 1px silver inset;
+	padding-left: 0.5em;
+	padding-right: 1em;
+}
+
+ol.assump {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

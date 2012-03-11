@@ -1,0 +1,18 @@
+INSTALLATION INSTRUCTIONS
+
+1) Copy this whole directory to within your web server's document root and name
+   it as you wish.  My personal path is /~pmw/ccc.
+
+2) Configure the web server to treat ccc as a CGI directory such that files
+   with extension .py are executable.  If you use Apache httpd, use .htaccess.
+
+3) The program needs a directory on your filesystem that's both writable by
+   your user and readable by the web server.  This directory is used for
+   generating and storing charts which are then displayed to the user.
+   Create this directory and set its permissions, then edit Settings.py and
+   specify the paths to it.
+
+4) Optionally create a cronjob to clean the temporary directory.  The program
+   intentionally does not erase images once they were created, in case you
+   wish to allow users to hotlink to their personalized charts.
+   Warning: the growth of this directory is uncontrolled.
