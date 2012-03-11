@@ -44,7 +44,7 @@ def print_page_top(titlesuff):
 def print_page_bottom():
 	print('<div id="footer">')
 	print('<p>If you have criticism, praise, or suggestions, <a href="http://www.qnan.org/~pmw/contact">contact the author</a>.</p>')
-	print('<p>This software is open-source under the BSD license.  <a href="git://qnan.org/pmw/ccc">Get it with git</a> or <a href="http://git.qnan.org/g/ccc">browse its source</a>.</p>')
+	print('<p>This software is open-source under the BSD license.  <a href="https://bitbucket.org/philipmw/credit-card-comparator">Visit its Mercurial repository.</a></p>')
 	print('</div>')
 	print('</body>\n</html>')
 
