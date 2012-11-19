@@ -1,0 +1,5 @@
+Many credit card companies offer cards that accumulate cash, airline miles, and "points".  Which card is the best for you?
+
+I developed this comparator to settle the debate.  This program tracks popular cards from different providers.  Just fill out this questionnaire, and you will find out which credit card will yield you the most rewards.
+
+Credit Card Comparator is a web-based program, written in Python and using matplotlib, that determines what cash-back credit card will yield the largest profit with your spending patterns. 
